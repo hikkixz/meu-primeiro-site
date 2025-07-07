@@ -1,0 +1,46 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial;
+}
+
+#titulo {
+  text-align: center;
+  color: darkblue;
+}
+
+.caixa {
+  background-color: white;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px auto;
+  width: 300px;
+  text-align: center;
+}
+input, textarea {
+  width: 90%;
+  max-width: 400px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: darkblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: navy;
+}
+i {
+  margin-right: 6px;
+  color: darkblue;
+}
+a:hover i {
+  color: red;
+}
